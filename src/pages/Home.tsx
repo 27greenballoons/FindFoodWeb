@@ -1,4 +1,5 @@
 import { MapPin, Smile, ShieldCheck } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import burgerUrl from '../assets/burger.svg';
 import '../index.css';
 
@@ -72,7 +73,9 @@ export default function App() {
         <footer className="mt-24 flex flex-col items-center gap-6 border-t border-emerald-900/30 pt-12">
           <div className="flex gap-8 text-sm text-emerald-100/40">
             <a href="mailto:support@tryfindfood.com" className="hover:text-emerald-400 transition">Support</a>
-            <a href="/privacy.html" className="hover:text-emerald-400 transition">Privacy Policy</a>
+            <Link to="/privacy" className="hover:text-emerald-400 transition">
+              Privacy Policy
+            </Link>
             <a href="/app-ads.txt" className="hover:text-emerald-400 transition">Ads.txt</a>
           </div>
           <p className="text-emerald-900 text-xs uppercase tracking-tighter font-bold">FindFood © 2026</p>
