@@ -31,7 +31,7 @@ export default function App() {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="https://apps.apple.com/app/idYOUR_APP_ID" 
+                href="https://apps.apple.com/us/app/findfood-restaurant-finder/id6758414062" 
                 target="_blank" 
                 rel="noreferrer"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-2xl font-bold transition-all shadow-lg shadow-emerald-950/40 text-center"
